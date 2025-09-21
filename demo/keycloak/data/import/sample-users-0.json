@@ -1,0 +1,115 @@
+{
+  "realm" : "sample",
+  "users" : [ {
+    "id" : "12a8ca56-22ff-4dc3-b87c-891f498d9279",
+    "username" : "service-account-bar",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755088245920,
+    "totp" : false,
+    "serviceAccountClientId" : "bar",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "clientRoles" : {
+      "bar" : [ "uma_protection" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "2b64842c-5153-4283-a4ab-36e64173d69d",
+    "username" : "service-account-baz",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755088256804,
+    "totp" : false,
+    "serviceAccountClientId" : "baz",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "clientRoles" : {
+      "baz" : [ "uma_protection" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "a9f7ee29-5ae7-439e-833e-279bb1d87ad5",
+    "username" : "service-account-foo",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755088153843,
+    "totp" : false,
+    "serviceAccountClientId" : "foo",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "clientRoles" : {
+      "foo" : [ "uma_protection" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "3f21a26d-82c0-405e-8910-a5a28ea8e09d",
+    "username" : "user1",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755087911495,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "e6b81fc6-27e6-45e1-a28b-83d17914bac3",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1755087927666,
+      "secretData" : "{\"value\":\"1hYVtRzYseZBfELEb/b/nJ0Rc4/vP1SOQsX8RL1EwpQ=\",\"salt\":\"OXbgIl4tClD6KZekUK7mGg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "35cd2a2f-acfe-4b7e-85e4-ec0d0a1ee422",
+    "username" : "user2",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755087949462,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "330808f7-42aa-45d2-9740-ca713660acc4",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1755087960391,
+      "secretData" : "{\"value\":\"RgKmfa/KEq5YTkwSXjBgqSqrbwo277VDF7t7rsVz19g=\",\"salt\":\"2YhQlHP05QZPcluXvYHaCA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "abf02b30-5c0c-4c82-a412-24b895f8aed2",
+    "username" : "user3",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1755087969049,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "019d9d89-4075-4dc4-9716-11d5dcb8b59c",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1755087986519,
+      "secretData" : "{\"value\":\"sVDrYfW9J9NtLJPBCNXXhGHA+9pSJrv0QGgGXcnYjew=\",\"salt\":\"C5JlvFUWFYIl2HALTIdjIw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-sample" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
