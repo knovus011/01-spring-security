@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+    <title>sample</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <table>
+                <tbody>
+                    <th:block th:each="claim : ${principal.getClaims()}">
+                        <tr>
+                            <th>
+                                <p th:text="${claim.key}"></p>
+                            </th>
+                            <td>
+                                <p th:text="${claim.value}"></p>
+                            </td>
+                        </tr>
+                    </th:block>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>

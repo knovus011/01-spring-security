@@ -1,0 +1,16 @@
+services:
+  keycloak:
+    image: keycloak/keycloak:26.3
+    container_name: keycloak
+    restart: always
+    ports:
+      - "9000:8080"
+    command:
+      - start-dev
+      - --import-realm
+      - --verbose
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+    volumes:
+      - ./keycloak/data:/opt/keycloak/data
